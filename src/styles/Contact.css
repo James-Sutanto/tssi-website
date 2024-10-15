@@ -1,0 +1,93 @@
+.main-container {
+    background: linear-gradient(to bottom, #3498DB 10%, #3498DB 10%, #f8f8f8 10%, #f8f8f8 100%);
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    height: 100%;
+}
+
+
+.main-container h1 {
+    text-align: center;
+}
+
+.contact-background {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0px;
+}
+
+@media (max-width: 600px) {
+    .contact-background {
+        flex-direction: column; /* Override margin-left for small screens */
+    }
+
+    .main-container h1 {
+       align-self: flex-start;
+       text-align: left;
+       margin-left: 20px;
+    }
+}
+
+
+.image-holder {
+    flex: 1;
+    margin-right: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+    margin-top: 40px;
+    align-items: flex-end;
+}
+
+.image {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-holder {
+    flex: 1;
+    text-align: left;
+    
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.text-holder h2 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 5px; /* Adjust bottom margin for less space */
+    margin-left: 10%;
+}
+
+.contact-para {
+    background-color: white; 
+    color: black;
+    border-radius: 20px; 
+    padding: 2px 5px; 
+    display: flex;
+    margin-bottom: 2px; 
+    margin-top: 0; 
+}
+
+.addr-div{
+    background-color: white; /* Background color for the pill */
+    color: black; /* Text color for contrast */
+    border-radius: 20px; /* Creates the pill shape */
+    padding: 10px 20px; /* Padding for better appearance */
+    display: flex; /* Ensures the p tags don't take full width */
+    margin-bottom: 0px; /* Space between pills */
+    margin-top: 0; /* Remove top margin for better alignment */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.outer-addr-div {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
+}
