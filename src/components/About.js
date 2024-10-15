@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/Styles/about.css'
+import './about.css';
 import img1 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Injection.JPG';
 
 function About() {

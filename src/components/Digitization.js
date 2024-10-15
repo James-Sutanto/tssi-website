@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/client.css';
+import './client.css';
 import { GoChecklist } from "react-icons/go";
 import { FaComputer } from "react-icons/fa6";
 import { FaMicrochip } from "react-icons/fa6";

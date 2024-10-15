@@ -1,4 +1,4 @@
-import "/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/styles/Background.css";
+import './Background.css';
 import molding from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Molding_comp.jpg';
 import design from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Design_comp.jpg';
 
