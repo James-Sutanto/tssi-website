@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/styles/service.css'
+import '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/Styles/service.css'
 import img1 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Mold_Maker.JPG'
 import img2 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Injection_Machine.JPG'
 import img3 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/assembly.JPG'
