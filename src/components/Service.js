@@ -13,19 +13,19 @@ function Service() {
         <h1 className='h1-style'>Services</h1>
         <div className='service-list'>
             <div className='service-card'>
-                <img src={img1}/>
+                <img src={img1} alt='Mold Making img'/>
                 <div className='card-text'>
                     <h3>Mold Maker</h3>
                 </div>
             </div>
             <div className='service-card'>
-                <img src={img2} />
+                <img src={img2}  alt='injection molding img'/>
                 <div className='card-text'>
                     <h3>Injection Molding</h3>
                 </div>
             </div>
             <div className='service-card'>
-                <img src={img5} style={{height:'100%', width:'100%'}} />
+                <img src={img5} style={{height:'100%', width:'100%'} } alt="painting img"/>
                 <div className='card-text'>
                     <h3>Painting</h3>
                 </div>
@@ -33,13 +33,13 @@ function Service() {
         </div>
         <div className='service-list' style={{marginTop:'10px'}}>
             <div className='service-card'>
-                <img src={img3}/>
+                <img src={img3}alt="Second Process"/>
                 <div className='card-text'>
                     <h3>Sub Assy & Second Process</h3>
                 </div>
             </div>
             <div className='service-card'>
-                <img src={img4} />
+                <img src={img4} alt="Qc Img"/>
                 <div className='card-text'>
                     <h3>Quality Control</h3>
                 </div>

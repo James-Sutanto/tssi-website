@@ -23,7 +23,7 @@ function About() {
                         <p className='p2'>2006 : Build PT. Techno Indonesia Jl. Jati 6 Blok J5 No.19, Newton Techno Park</p>
                         <p className='p2'>2011 : Build New Plant 2 PT. TRI SAUDARA INDUSTRI DELTA SILICON 3</p>
                     </div>
-                    <img className='img-style' src={img1}/>
+                    <img className='img-style' src={img1} alt="about bg"/>
                 </div>
                 <div className='about-div3'>
                     <div className='timeline-container'>
