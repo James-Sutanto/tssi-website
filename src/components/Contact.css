@@ -16,7 +16,6 @@ main-container {
     flex-direction: row;
     align-items: stretch;
     padding: 0px;
-    height: 100%;
 }
 
 @media (max-width: 600px) {
