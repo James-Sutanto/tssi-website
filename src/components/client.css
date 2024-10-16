@@ -6,7 +6,7 @@
     flex-direction: column;
     padding: 0px; /* Added padding for better spacing */
     padding-bottom: 20px;
-    background-image: url('../img/prod-bg.jpg');
+    background-image: url('./prod-bg.jpg');
     background-size: cover; /* Make the background image cover the entire div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -36,7 +36,7 @@
     align-items: center;
     flex-direction: column;
     padding: 20px; /* Added padding for better spacing */
-    background-image: url('../img/digit-bg.jpg');
+    background-image: url('./digit-bg.jpg');
     background-size: cover; /* Make the background image cover the entire div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */

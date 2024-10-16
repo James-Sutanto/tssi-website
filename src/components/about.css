@@ -62,7 +62,7 @@
     background-color: #3498DB;
     padding: 10px;
     padding-bottom: 30px;
-    background-image: url('../img/about-bg-3.jpg');
+    background-image: url('./about-bg-3.jpg');
     background-size: cover; /* Resize the background image to cover the entire element */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
