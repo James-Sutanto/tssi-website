@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Navbar.css'
 const Navbar = () => {
   // State to track whether the dropdown is open
   const [isOpen, setIsOpen] = useState(false);
