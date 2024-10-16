@@ -1,10 +1,10 @@
 import React from 'react'
-import '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/styles/client.css'
-import img1 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/p1.JPG'
-import img2 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Sharp_TV.JPG'
-import img3 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/pxg930.JPG'
-import img4 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/mpart.JPG'
-import img5 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/prod-1.jpg'
+import './client.css'
+import img1 from './p1.JPG'
+import img2 from './Sharp_TV.JPG'
+import img3 from './pxg930.JPG'
+import img4 from './mpart.JPG'
+import img5 from './prod-1.jpg'
 
 function Products() {
   return (

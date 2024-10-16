@@ -1,10 +1,10 @@
 import React from 'react'
 import './service.css'
-import img1 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Mold_Maker.JPG'
-import img2 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Injection_Machine.JPG'
-import img3 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/assembly.JPG'
-import img4 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/qc.JPG'
-import img5 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Painting.JPG'
+import img1 from './Mold_Maker.JPG'
+import img2 from './Injection_Machine.JPG'
+import img3 from './assembly.JPG'
+import img4 from './qc.JPG'
+import img5 from './Painting.JPG'
 
 
 function Service() {

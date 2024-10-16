@@ -1,6 +1,6 @@
 import React from 'react';
-import reception from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/contact-2.png';
-import img2 from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/contact-1.jpg';
+import reception from './contact-2.png';
+import img2 from './contact-1.jpg';
 import './Contact.css';
 import { BiMailSend } from "react-icons/bi";
 import { BiPhone } from "react-icons/bi";

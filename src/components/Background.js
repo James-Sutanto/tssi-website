@@ -1,6 +1,6 @@
 import './Background.css';
-import molding from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Molding_comp.jpg';
-import design from '/Users/jamessutanto/CompanyProfile/CompanyProfile/company-profile/src/img/Design_comp.jpg';
+import molding from './Molding_comp.jpg';
+import design from './Design_comp.jpg';
 
 const Background = ({ heroCount }) => {
   let backgroundImage;
