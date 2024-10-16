@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Background from './Background';
-import Navbar from './Navbar';
 import Hero from './Hero';
 
 function Home() {
