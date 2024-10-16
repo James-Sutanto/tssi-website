@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px; /* Added padding for better spacing */
-    background-image: url('../img/service-bg-2.jpg');
+    background-image: url('./service-bg-2.jpg');
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
