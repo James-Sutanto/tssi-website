@@ -1,34 +1,26 @@
 .main-container {
     background: linear-gradient(to bottom, #3498DB 10%, #3498DB 10%, #f8f8f8 10%, #f8f8f8 100%);
-    min-height: 100vh; /* Ensure it covers at least the full viewport height */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
     padding: 20px;
-    box-sizing: border-box; /* Include padding in the height calculation */
-    height: auto; /* Allow the container to grow as needed */
-    background-size: cover; /* Ensure background covers the entire container */
-    background-repeat: no-repeat; /* Prevent background from repeating */
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    height: 100%;
 }
 
-.image-holder {
-    flex: 1;
-    margin-right: 0px;
-    height: auto; /* Allow image-holder to grow with its content */
+
+.main-container h1 {
+    text-align: center;
+}
+
+.contact-background {
     display: flex;
-    justify-content: flex-start;
-    margin-right: 40px;
-    margin-top: 40px;
-    align-items: flex-end;
-}
-
-.image {
-    width: 70%;
-    height: auto; /* Keep the aspect ratio */
-    border-radius: 10px;
-    object-fit: cover; /* Ensure the image covers the container without distortion */
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0px;
 }
 
 @media (max-width: 600px) {
     .contact-background {
-        flex-direction: column; /* Stack elements vertically on smaller screens */
+        flex-direction: column; /* Override margin-left for small screens */
     }
 
     .main-container h1 {
@@ -38,6 +30,24 @@
     }
 }
 
+
+.image-holder {
+    flex: 1;
+    margin-right: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+    margin-top: 40px;
+    align-items: flex-end;
+}
+
+.image {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
 
 .text-holder {
     flex: 1;
