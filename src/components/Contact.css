@@ -1,6 +1,6 @@
 .main-container {
     background: linear-gradient(to bottom, #3498DB 10%, #3498DB 10%, #f8f8f8 10%, #f8f8f8 100%);
-    min-height: 100vh; /* Ensure it covers the full viewport height */
+    min-height: 150vh; /* Ensure it covers the full viewport height */
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the total width/height */
     height: 100%;
