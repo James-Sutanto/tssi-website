@@ -1,4 +1,4 @@
-.main-container {
+main-container {
     background: linear-gradient(to bottom, #3498DB 10%, #3498DB 10%, #f8f8f8 10%, #f8f8f8 100%);
     min-height: 100vh; /* Ensure it covers the full viewport height */
     padding: 20px;
